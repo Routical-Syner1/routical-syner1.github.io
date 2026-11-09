@@ -1,10 +1,22 @@
-[{                                                                                                                                                                                                                                     
-    "relation": ["delegate_permission/common.handle_all_urls"],                                                                                                                                                                          
-    "target": {                                                                                                                                                                                                                          
-      "namespace": "android_app",                                                                                                                                                                                                        
-      "package_name": "lt.smworks.driverapp.test",                                                                                                                                                                                       
-      "sha256_cert_fingerprints": [                                                                                                                                                                                                      
-        "F6:73:12:C7:C3:B2:53:0F:B8:51:DE:22:AC:32:74:2A:16:A3:93:2C:49:9B:21:A3:68:14:14:85:AC:B8:11:34"                                                                                                                                
-      ]                                                                                                                                                                                                                                  
-    }                                                                                                                                                                                                                                    
-}]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "lt.smworks.driverapp",
+      "sha256_cert_fingerprints": [
+        "9E:27:13:3F:44:A5:A5:D2:74:77:B3:A1:84:2C:DF:03:CE:88:42:FE:49:71:30:A5:8D:6C:2F:7A:A1:B0:02:00"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "lt.smworks.driverapp.test",
+      "sha256_cert_fingerprints": [
+        "F6:73:12:C7:C3:B2:53:0F:B8:51:DE:22:AC:32:74:2A:16:A3:93:2C:49:9B:21:A3:68:14:14:85:AC:B8:11:34"
+      ]
+    }
+  }
+]
